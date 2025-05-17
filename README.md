@@ -2,23 +2,6 @@
 
 Practice making requests to the Pokemon API using JS and Node.
 
-## Instructions
-
-1. **Install dependencies** (if using Node.js version < 18):
-   ```bash
-   npm install node-fetch
-   ```
-   If you are using Node.js 18 or newer, you can skip this step as `fetch` is built-in.
-
-2. **Run the script:**
-   ```bash
-   node pokemon.js
-   ```
-
-This will log the results of 9 Pokémon API exercises to your console.
-
----
-
 ### Assignment Exercises
 
 Pick nine of these exercises for your assignment. Do 3 of each group. Log all your results using console.log
@@ -41,3 +24,20 @@ Group 3: Advanced API Calls by ID
 ---
 
 Create your GitHub repo containing your JS file and a README with instructions to run your program. Upload all your changes to GitHub and share the repo with me!
+
+What i did was:
+
+I created pokemon.js
+
+Used node-fetch dynamically in Node.js to simulate browser fetch.
+
+Made multiple asynchronous requests to the PokéAPI.
+- Logged Squirtle's name and base experience.
+- Logged Pikachu’s name and types.
+- Logged Jigglypuff's name and weight
+
+Extracted and printed specific Pokémon data (name, experience, type, weight, effects, etc.).
+
+Used modern JavaScript features like async/await, arrow functions, optional chaining (?.), and .map().
+
+---

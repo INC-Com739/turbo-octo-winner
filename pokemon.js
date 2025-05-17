@@ -1,6 +1,4 @@
-// pokemon.js
-// Make sure to run: npm install node-fetch (if using Node < 18)
-// Usage: node pokemon.js
+
 
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
